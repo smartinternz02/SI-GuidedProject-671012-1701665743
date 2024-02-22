@@ -1,0 +1,46 @@
+body {
+        background-image: url('C:\Users\HARIKA PENCHALA\Desktop\surface crack detection\pred_files\crack detection.jpg'); /* Replace with the actual path to your image */
+        background-size: cover; /* Ensures the background image covers the entire screen */
+        background-position: center; /* Centers the background image */
+        background-repeat: no-repeat; /* Prevents the background image from repeating */
+
+    
+}
+img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto; /* Maintain the aspect ratio of the images */
+    display: block; /* Remove extra space below inline images */
+    margin: 10px 0; /* Add some space around images */
+}
+h1 {
+    text-align: center;
+    color: #d11c1c;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

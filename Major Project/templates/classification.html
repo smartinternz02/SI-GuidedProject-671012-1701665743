@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="final.css">'
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification Result</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: rgb(232, 182, 199);
+
+        }
+        .container {
+            max-width: 600px;
+            max-height: 1000px;
+            margin: 300px auto;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            background-color: rgb(187, 67, 133);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Classification Result</h1>
+    <p>The predicted class is: {{ prediction }}</p>
+    <a href="/">Go back</a>
+    <script src="main.js"></script>
+</div>
+</body>
+</html>

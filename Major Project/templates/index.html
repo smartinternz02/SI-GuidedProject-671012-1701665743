@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Surface Crack Detection</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('pred_files\crack detection.jpg');
+            background-position: left;
+            background-color: rgb(220, 179, 239);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+
+        }
+        .container {
+            max-width: 600px;
+            max-height: 1000px;
+            margin: 300px auto;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            background-color: rgb(165, 77, 200);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Welcome to CrackDetect</h1>
+    <h2>Choose an image:</h2>
+    <form action="/result" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required>
+        <button type="submit">Submit</button>
+        <script src="{{ url_for('static', filename='jscript.js') }}"></script>
+    </form>
+</div>
+</body>
+</html>
